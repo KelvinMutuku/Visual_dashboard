@@ -114,3 +114,5 @@ More chart types:
 # Pie chart for product distribution
 fig_pie = px.pie(filtered_df, values='Sales', names='Product', title='Sales by Product')
 st.plotly_chart(fig_pie)
+
+# Deploymet Link: https://visualdashboard-zpd6ctrngonkqgrds4ysgd.streamlit.app/
